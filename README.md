@@ -2,7 +2,7 @@
 
 Hi my name is Stacy. I am a student. I like hiking, painting and cooking!
 
-Currently nervous and excited to change my career from hairdressing to software development!
+Currently nervous but excited to change my career from hairdresser to software development!
 
 ## Table of contents
 
