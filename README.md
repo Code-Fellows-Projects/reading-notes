@@ -7,8 +7,7 @@ Currently nervous but excited to change my career from hairdresser to software d
 ## Table of contents
 
 -[Class 1: Growth Mindset](growthmindset.md)
-
--[class 1: Whats a markdown](Whats a markdown.md)
+-[Class 1: Whats a markdown](whats a markdown.md)
 -[class 1: Notes](Day1notes.md)
 ### Lets talk about Growth Mindset:
 
