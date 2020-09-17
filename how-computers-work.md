@@ -1,5 +1,5 @@
 # But how do computers work??
-## Facinating stuff!
+## Fascinating stuff!
 
 What makes a computer a computer?
 Great question: 
@@ -33,16 +33,14 @@ Computers are...
         - 32 wires store 0 - over 4 billion
 
     - Text - Image - Sound also represented with numbers!
-    - Text and sound in binary....pixels and cuircits
+    - Text and sound in binary....pixels and circuits
 
 - Input devices into binary info 
 - ex. keyboard, microphone
-- memory - gitabits to store
+- memory - gigabits to store
 
 ### CPU 
     - central processing unit 
         - master chip
-        - softwares tells what to do
+        - software tells what to do
         - Converts info to physical output
-
-
