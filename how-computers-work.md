@@ -2,7 +2,7 @@
 ## Fascinating stuff!
 
 What makes a computer a computer?
-Great question: 
+Great question 
 
 - Tools to help us solve problems....
 - can a machine do that?
