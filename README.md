@@ -4,9 +4,15 @@ Hey there! My name is Stacy and I am a student at CodeFellows! Currently jaming 
 
 ## Table of contents
 
+<a href="https://github.com/stacyburris/reading-notes/blob/master/Day1notes.md">Other page</a>
+
 - [Growth-mindset.md] https://github.com/stacyburris/reading-notes/blob/master/Day1notes.md
 - [Day1notes.md]
+
+https://github.com/stacyburris/reading-notes/commit/5be1182d9ca03aa6f4647c4ee824c58701b142b5
+
 - [Whats-a-markdown.md]
+
 
 https://github.com/stacyburris/reading-notes/blob/master/Whats-a-markdown.md
 

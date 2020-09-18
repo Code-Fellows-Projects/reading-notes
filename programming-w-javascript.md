@@ -48,6 +48,7 @@ pg 74 - 79
 - Modulus (%)
 
 ### String Operator
+
 - the + symbolto join strings on either side
 example - var firstName = 'Ivy';
 
