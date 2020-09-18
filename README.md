@@ -4,6 +4,8 @@ Hey there! My name is Stacy and I am a student at CodeFellows! Currently jaming 
 
 ## Table of contents
 
+- https://github.com/stacyburris/reading-notes/blob/master/Day1notes.md
+
 - Growth-mindset.md
 - Day1notes.md
 - Whats-a-markdown.md
