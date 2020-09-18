@@ -1,24 +1,17 @@
-# Stacys Page
+# Welcome to Stacy's Page
 
-Hi my name is Stacy. I am a student. I like hiking, painting and cooking!
-
-Currently nervous but excited to change my career from hairdresser to software development!
+Hey there! My name is Stacy and I am a student at CodeFellows! Currently jaming my brain full of code! Also I enjoy hiking, painting and cooking!
 
 ## Table of contents
 
--[Class 1: Growth Mindset](growthmindset.md)
--[Class 1: Whats a markdown](whats a markdown.md)
--[class 1: Notes](Day1notes.md)
-### Lets talk about Growth Mindset:
+- Growth-mindset.md
+- Day1notes.md
+- Whats-a-markdown.md
+- revisions-and-the-cloud.md
+- css-reading.md
+- do-along-reading.md
+- html-css-build-wedsites.md
+- javascript08.md
+- programming-w-javascript.md
+- how-computers-work.md
 
-- Growth mindset is being open with not just your eyes and ears but minds. Open to all new discoveries.
-
-### Tips to keep myself in a growth mindset:
-
-- Staying curious and open
-- Always ask questions. If lost for more that 15min ask!
-- Listen and stay positive
-
-![superbloodwolfmoon](https://www.telegraph.co.uk/content/dam/science/2019/12/17/TELEMMGLPICT000186194693_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQfyf2A9a6I9YchsjMeADBa08.jpeg?imwidth=1280)
-
-[<==Back](README.md)
