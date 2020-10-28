@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <title>Class 1 Lab</title>
+    <!-- this is an internal style-->
+
+    <!-- <style>
+        h1 {
+            color: orange;
+        }
+
+        p{
+            color: orangered;
+            background-color: black;
+            padding: 10px;
+        
+
+    </style> -->
+</head>  
+    <body>
+       <header>
+           <!-- put important information like navigation and big titles -->
+           <!-- inline styles are styles that go in the line that you want to style-->
+         
+        </header> 
+       <main>
+           <h1 style="color: orange; background-color: black; padding: 10px; font-family: 'Bangers', cursive; text-align: center;">Class 1 Lab</h1>
+            <p style="color: darkgreen; background-color: orange; padding: 10px; font-family: 'Bangers', cursive; text-align: center;">Hello there! What is your name?</p>
+            <p style="color: mediumslateblue; background-color: olive; padding: 10px; font-family: 'Bangers', cursive; text-align: center;">What do you like to do for Halloween?</p>
+            <p style="color: black; background-color: orchid; padding: 10px; font-family: 'Bangers', cursive; text-align: center;">Do you like haunted mansions?</p>
+            <p style="color: orangered; background-color: lightgoldenrodyellow; padding: 10px; font-family: 'Bangers', cursive; text-align: center;">What keeps you from feeling scared?</p>
+
+       </main>
+       <footer></footer>
+       <script>
+          var userName = prompt('Hello there! What is your name?');
+          // this is called concatenation
+          console.log('This is the user name, ' + userName);
+
+          alert('Nice to meet you ' + userName + '!');
+
+
+          var forHalloween = prompt('So ' + userName + ', What do you like to do for Halloween?');
+
+          console.log('This is what you like to do for Halloween, ' + forHalloween);
+
+          alert('Thats awesome ' + userName + ', I also enjoy watching horror movies for Halloween!');
+
+          var hauntedMansion = confirm('Do you like Haunted Mansions?');
+          console.log('Answer to haunted mansion question, ' + hauntedMansion);
+          if (hauntedMansion){
+            alert('Same, looks like we both like horror movies and love haunted mansions! ' + '');
+          } else {
+          alert('No! Well we both like watching horror movies for halloween at least which is spooky enough!');
+          }
+
+         var feelingScared = prompt('What keeps you from getting spooked?');
+         console.log('Answer to feeling scared, ' + feelingScared);
+
+         alert('Smart choice ' + userName + ', holding a blanket could help! Horror movies and haunted mansions are spooky enough!');
+
+
+
+
+       // var  finalString = prompt('Well ' + userName ', Looks like you ')
+       </script>
+      </body> 
+</html>
