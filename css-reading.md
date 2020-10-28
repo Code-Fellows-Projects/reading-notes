@@ -12,6 +12,9 @@ h1 - h6
 p
 div
 
+
+> hey
+
 CSS rule contains 2 parts: Selector and declaration
 
 - selector = which element the rule applies to 
