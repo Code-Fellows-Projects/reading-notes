@@ -22,7 +22,7 @@ Hey there! My name is Stacy and I am a student at CodeFellows! Currently jamming
 
 ## Code **201** - Foundations of Software Development
 
-1. [class-01.md](class-01.md) 
+1. [class-01.md](class-01.md)
 2. [class-02.md](class-02.md)
 3. [class-03.md](class-03.md)
 4. [class-04.md](class-04.md)
@@ -40,6 +40,7 @@ Hey there! My name is Stacy and I am a student at CodeFellows! Currently jamming
 
 ## Code **301** - Intermediate Software Development
 
+1. [read01.md](read01.md)
 
 ## Code **401** - Advanced Software Development
 
