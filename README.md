@@ -41,6 +41,7 @@ Hey there! My name is Stacy and I am a student at CodeFellows! Currently jamming
 ## Code **301** - Intermediate Software Development
 
 1. [Reading: SMACSS and Responsive Web Design](/301/read01.md)
+2. [Reading: jQuery, Events, and The DOM](/301/read02.md)
 
 ## Code **401** - Advanced Software Development
 
