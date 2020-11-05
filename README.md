@@ -43,6 +43,7 @@ Hey there! My name is Stacy and I am a student at CodeFellows! Currently jamming
 1. [Reading: SMACSS and Responsive Web Design](/301/read01.md)
 2. [Reading: jQuery, Events, and The DOM](/301/read02.md)
 3. [Reading: MUSTACHE and FLEXBOX](/301/read03.md)
+4. [Reading: CSS GRID](/301/read04.md)
 
 ## Code **401** - Advanced Software Development
 
