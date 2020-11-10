@@ -46,6 +46,7 @@ Hey there! My name is Stacy and I am a student at CodeFellows! Currently jamming
 4. [Reading: CSS GRID](/301/read04.md)
 5. [Reading: HEROKU](/301/read05.md)
 6. [Reading: Node.js](/301/read06.md)
+7. [Reading: APIs continued](/301/read07.md)
 
 ## Code **401** - Advanced Software Development
 
