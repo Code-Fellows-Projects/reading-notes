@@ -47,6 +47,7 @@ Hey there! My name is Stacy and I am a student at CodeFellows! Currently jamming
 5. [Reading: HEROKU](/301/read05.md)
 6. [Reading: Node.js](/301/read06.md)
 7. [Reading: APIs continued](/301/read07.md)
+8. [Reading: SQL](/301/read08.md)
 
 ## Code **401** - Advanced Software Development
 
