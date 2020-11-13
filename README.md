@@ -49,6 +49,7 @@ Hey there! My name is Stacy and I am a student at CodeFellows! Currently jamming
 7. [Reading: APIs continued](/301/read07.md)
 8. [Reading: SQL](/301/read08.md)
 9. [Reading: Refactoring](/301/read09.md)
+10. [Reading: The call stack](/301/read10.md)
 
 ## Code **401** - Advanced Software Development
 
