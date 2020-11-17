@@ -51,6 +51,7 @@ Hey there! My name is Stacy and I am a student at CodeFellows! Currently jamming
 9. [Reading: Refactoring](/301/read09.md)
 10. [Reading: The call stack](/301/read10.md)
 11. [Reading: EJS](/301/read11.md)
+12. [Reading: Components](/301/read12.md)
 
 ## Code **401** - Advanced Software Development
 
