@@ -53,6 +53,7 @@ Hey there! My name is Stacy and I am a student at CodeFellows! Currently jamming
 11. [Reading: EJS](/301/read11.md)
 12. [Reading: Components](/301/read12.md)
 13. [Reading: Update/Delete](/301/read13.md)
+14. [Reading: DB Normalization](/301/read14a.md)
 
 ## Code **401** - Advanced Software Development
 
