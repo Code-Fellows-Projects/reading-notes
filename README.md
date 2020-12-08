@@ -59,6 +59,8 @@ Hey there! My name is Stacy and I am a student at CodeFellows! Currently jamming
 ## Code **401** - Advanced Software Development
 
 Prep: [Engineering Topics](/401/engineering-topics.md)
+1. [Read: Node Ecosystem, TDD, CI/CD](/401/node-ecosystem.md)
+
 
 
 
