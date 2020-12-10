@@ -2,7 +2,7 @@
 
 Hey there! My name is Stacy and I am a student at CodeFellows! Currently jamming my brain full of code! This page contains all of my reading notes for school.
 
-![Space Cat Gif](https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif)
+![Space Cat](https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif)
 
 
 ## Table of contents
@@ -61,6 +61,7 @@ Hey there! My name is Stacy and I am a student at CodeFellows! Currently jamming
 Prep: [Engineering Topics](/401/engineering-topics.md)
 1. [Read: Node Ecosystem, TDD, CI/CD](/401/node-ecosystem.md)
 2. [Read: Express](/401/express.md)
+3. [Read: Express REST API](/401/express-rest.md)
 
 
 
