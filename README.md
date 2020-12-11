@@ -62,6 +62,7 @@ Prep: [Engineering Topics](/401/engineering-topics.md)
 1. [Read: Node Ecosystem, TDD, CI/CD](/401/node-ecosystem.md)
 2. [Read: Express](/401/express.md)
 3. [Read: Express REST API](/401/express-rest.md)
-
+4. [Read: Data Modeling](/401/data-modeling.md)
+5. [Read: Linked Lists](/401/linked-lists.md)
 
 
