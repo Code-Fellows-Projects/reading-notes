@@ -64,5 +64,6 @@ Prep: [Engineering Topics](/401/engineering-topics.md)
 3. [Read: Express REST API](/401/express-rest.md)
 4. [Read: Data Modeling](/401/data-modeling.md)
 5. [Read: Linked Lists](/401/linked-lists.md)
+6. [Read: Authentication](/401/authentication.md)
 
 
