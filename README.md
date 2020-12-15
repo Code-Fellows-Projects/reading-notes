@@ -66,4 +66,5 @@ Prep: [Engineering Topics](/401/engineering-topics.md)
 5. [Read: Linked Lists](/401/linked-lists.md)
 6. [Read: Authentication](/401/authentication.md)
 7. [Read: Bearer Authorization](/401/bearer-authorization.md)
+8. [Read: Access Control (ACL)](/401/access-control.md)
 
