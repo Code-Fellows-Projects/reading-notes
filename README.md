@@ -65,5 +65,5 @@ Prep: [Engineering Topics](/401/engineering-topics.md)
 4. [Read: Data Modeling](/401/data-modeling.md)
 5. [Read: Linked Lists](/401/linked-lists.md)
 6. [Read: Authentication](/401/authentication.md)
-
+7. [Read: Bearer Authorization](/401/bearer-authorization.md)
 
