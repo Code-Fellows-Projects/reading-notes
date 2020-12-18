@@ -17,8 +17,8 @@
 + Peek To view the value of the top node - O(1)
 + IsEmpty - returns when stack is empty or will return false - O(1)
 
-FILO
-  + First In Last Out
+FIFO
+  + First In First Out
 
 LIFO
   + Last In First Out
