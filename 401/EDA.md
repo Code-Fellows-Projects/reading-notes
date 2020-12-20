@@ -10,7 +10,7 @@
 
 3. What is a role used for?
   + Differenciating the type of users
-  
+
 4. Why is role based access control more scalable than discretionary or mandatory access control?
   + Change on role rather than individual user. Reduces work load maintenance
 
