@@ -21,3 +21,4 @@
 + EC2 (Amazon Elastic Compute Cloud) web service that provides secure, resizable compute capacity in the cloud
 + [EC2 For Humans](https://www.youtube.com/watch?v=lZMkgOMYYIg)
 + [Elastic Beanstalk](https://www.youtube.com/watch?v=SrwxAScdyT0)
++ AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, and Docker on familiar servers such as Apache HTTP Server, Apache Tomcat, Nginx, Passenger, and IIS. You can simply upload your code and Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring.
