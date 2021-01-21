@@ -8,7 +8,7 @@
 
 2. Can a component outside of a provider get its context?
 
-  + Redux?
+  + Yes
 
 3. What are some common use cases for using the Context API?
 
