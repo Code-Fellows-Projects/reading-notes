@@ -37,8 +37,8 @@
 
 Refer to: [codefellows graphs](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/graphs.html)
 
-+ Breadth First
-+ Depth First
++ Breadth First - start with a node and move through all of the nodes connected to that node then move on - queue
++ Depth First - start with a node - move as far as we can, we work our way back - stack - recursively
 
 **Real World Uses of Graphs**
 
