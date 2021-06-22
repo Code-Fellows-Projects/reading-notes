@@ -1,9 +1,8 @@
-# *Reading Notes*
+# _Reading Notes_
 
-Hey there! My name is Stacy and I am a student at CodeFellows! Currently jamming my brain full of code! This page contains all of my reading notes for school.
+This page contains all of my reading notes and study prep
 
 ![Space Cat](https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif)
-
 
 ## Table of contents
 
@@ -59,6 +58,7 @@ Hey there! My name is Stacy and I am a student at CodeFellows! Currently jamming
 ## Code **401** - Advanced Software Development
 
 Prep: [Engineering Topics](/401/engineering-topics.md)
+
 1. [Read: Node Ecosystem, TDD, CI/CD](/401/node-ecosystem.md)
 2. [Read: Express](/401/express.md)
 3. [Read: Express REST API](/401/express-rest.md)
@@ -94,3 +94,7 @@ Prep: [Engineering Topics](/401/engineering-topics.md)
 33. [Read: React Native](/401/react-native.md)
 34. [Read: Ethics in Tech](/401/ethics-in-tech.md)
 35. [Read: Gatsby, next.js, and other JS Frameworks](/401/gatsby.md)
+
+## Technical Review
+
+1. [Technical Interview](TechnicalReview/ti.md)
