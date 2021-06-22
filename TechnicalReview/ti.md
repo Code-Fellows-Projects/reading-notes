@@ -50,19 +50,27 @@
    - It doesn't store any data on hard disk of personal computer
    - Access data from remote server
 
-9. SaaS (Software as a Service)
+9. What are the advantages of using cloud computing?
 
-   - Provides users access directly to the cloud application without installing anything on the system.
+   - Data backup and storage of data
+   - Powerful server capabilities
+   - SaaS
+   - Increase in productivity
+   - Cost effective and time saving
 
-10. What is a programming language (definition)
+10. SaaS (Software as a Service)
+
+    - Provides users access directly to the cloud application without installing anything on the system.
+
+11. What is a programming language (definition)
 
     - Collection of grammar rules to instruct computers of computing devices to preform tasks
 
-11. SDLC (Software development life cycle)
+12. SDLC (Software development life cycle)
 
     - Produces quality software products in less time
 
-12. 7 phases of SDLC
+13. 7 phases of SDLC
 
     1. Planning
     2. Analysis
@@ -72,7 +80,7 @@
     6. Implementation
     7. Maintenance
 
-13. What is the difference between Java and JavaScript?
+14. What is the difference between Java and JavaScript?
 
     Java: "Write once run anywhere"
 
@@ -87,11 +95,11 @@
     - Runs in browser
     - Makes web pages dynamic / interactive
 
-14. What is RWD? (responsive web design)
+15. What is RWD? (responsive web design)
 
     - Uses media queries to target breakpoints that scale images, wrap text and adjust layout to fit any screen size
 
-15. SQL?
+16. SQL?
 
     - Structured query language
     - Schema
@@ -101,8 +109,63 @@
     - vertical scaling possible
     - Limitations for read / write queries
 
-16. NoSQL?
+17. NoSQL?
 
     - Schema-less
     - None to very few relations
     - Data is merged / nested in a few collections
+
+18. OOP?
+
+    - Object-oriented programming
+    - Creating objects that contain data and functions (not functions/ logic)
+    - Code is reusable, scalable, efficient
+    - Java, JavaScript, Python, C++, .NET, Ruby, Scala, PHP
+
+19. what is a database?
+
+    - Organized collection of data
+    - Tables of data
+    - Documents of data (mongo)
+
+20. What are the REST API methods?
+
+    - CRUD:
+      Create | post
+      Read | get  
+      Update | put
+      Delete | delete
+
+21. REST & RESTful?
+
+    - Representational State Transfer
+    - Restful --> web services written in REST architectural concepts called RESTful services
+    - How state should be transported over HTTP protocol to different clients
+
+22. WRRC?
+
+    - Web Request Response Cycle
+    - Clients and servers communicate by exchanging individual messages (as opposed to a stream of data). The messages sent by the client, usually a Web browser, are called requests and the messages sent by the server as an answer are called responses.
+
+23. DBMS?
+
+    - Database Management System
+
+24. Array?
+
+    - Container that keeps a specific number of similar data types
+
+25. Constructor?
+
+    - A method used to create a class object
+    - Calls automatically when you create a class object
+
+26. Method?
+
+    - Used to perform some operation of function.
+    - It has a return type
+    - You need to call the method
+
+27. Stack?
+
+    - In computing a stack is data structure used to store a collection of objects.
