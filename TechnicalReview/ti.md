@@ -90,6 +90,8 @@
 - String
 - Function
 
+## Programming Basic Questions:
+
 13. What is a programming language (definition)
 
 - Collection of grammar rules to instruct computers of computing devices to preform tasks
@@ -109,6 +111,8 @@ JavaScript
 - Runs in browser
 - Makes web pages dynamic / interactive
 
+- Prototypes = mechanism by which JavaScript objects inherit features from one another
+
 15. What is RWD? (responsive web design)
 
     - Uses media queries to target breakpoints that scale images, wrap text and adjust layout to fit any screen size
@@ -125,7 +129,10 @@ JavaScript
     - vertical scaling possible
     - Limitations for read / write queries
 
-17. What is inner/outer/left/right joins?
+17. What is full/inner/outer/left/right joins?
+    - Combines the rows from two or more tables
+
+- FULL JOIN combines the results of both left and right outer joins. The joined table will contain all records from both the tables and fill in NULLs for missing matches on either side.
 
 - INNER JOIN returns a list of rows for which there is a match in both tables specified. It's the default join type, so if you just type JOIN without specifying any other conditions, an INNER JOIN will be used.
 
@@ -133,20 +140,101 @@ JavaScript
 
 - RIGHT JOIN will return all results from the right table in your statement, matched against rows in the left table when possible. If a row in the right table does not contain a corresponding match in the left table, it will still be listed — with NULL values in columns for the left table.
 
-18. NoSQL?
+- TABLE - collection of data that is organized in rows and columns
+  Columns = FIELDS
+  ROWS = RECORDS
+- FORMAT = function allows the formation of the date and time
+
+  - SELECT FORMAT (getdate(), day/month/year)
+
+- SQL CONSTRAINTS:
+  - PRIMARY KEY - Identifies each record in a table
+  - FOREIGN KEY - Provides unique identification of a row or record within another table
+  - NOT NULL - prevents NULL value
+  - DEFAULT - Assigns a default value if there has not been a value already specified for a field.
+  - CHECK - verify values meet specific criteria or conditions in a field
+  - UNIQUE - Ensures unique values are always inserted into a column
+  - INDEX Allows for faster retrieval of records from a table. Index creates an entry for each value.
+
+18. Three main subsets of SQL:
+
+    DCL = Data Control Language - permits control access to the database
+    DDL = Data Definition Language - specify data structures in the database. including deleting tables, creating or altering them.
+    DML - Data Manipulation Language - manipulate data, updating, inserting, deleting or retrieving data in the table
+
+19. NoSQL?
 
     - Schema-less
     - None to very few relations
     - Data is merged / nested in a few collections
 
-19. OOP?
+## Database Questions:
+
+20. what is a database?
+
+    - Organized collection of data
+    - Tables of data
+    - Documents of data (mongo)
+
+21. What is DBMS?
+
+    - DBMS stands for Database Management System. DBMS is a system software responsible for the creation, retrieval, updation and management of the database. It ensures that our data is consistent, organized and is easily accessible by serving as an interface between the database and its end users or application softwares.
+
+22. What is RDBMS? How is it different from DBMS?
+
+    - RDBMS stands for Relational Database Management System. The key difference here, compared to DBMS, is that RDBMS stores data in the form of a collection of tables and relations can be defined between the common fields of these tables. Most modern database management systems like MySQL, Microsoft SQL Server, Oracle, IBM DB2 and Amazon Redshift are based on RDBMS.
+
+23. How can you sort the database in alphabetical order?
+
+- In SQL - ORDER BY
+- In Mongo there is a sort method
+
+## OOP
+
+24. OOP?
 
     - Object-oriented programming
     - Creating objects that contain data and functions (not functions/ logic)
     - Code is reusable, scalable, efficient
     - Java, JavaScript, Python, C++, .NET, Ruby, Scala, PHP
+      - Unit = Object
+      - Variable = Properties
+      - Functions = Methods
+    - Fewer Parameters are better
 
-20. What are the REST API methods?
+25. What are the four principles of OOP?
+
+    1. **Encapsulation** - Reduces Complexity + Increases Reusability
+
+       - Groups related variables and functions that operate on them into objects
+       - f() - method
+       - let variable x = property
+
+    2. **Abstraction** - Reduces Complexity + Isolates Impact of Changes
+
+       - Example DVD player = object
+       - Buttons = interactive parts
+       - Insides = The unknown parts that make it play = abstraction
+       - Creating a model of more complex real world entities which contains only important properties
+
+    3. **Inheritance** - Eliminates Redundant Code
+       - Define once --> inherit properties and methods
+       - Child object class (constructor) that inherits features form parent classes
+       - Prototype --> prototype --> null
+       - Example: Textbox / Select / Checkbox
+         - Hidden or innerHTML
+         - Click() or Focus()
+         - Define as HTMLElement
+    4. **Polymorphism** - Gets Rid of If Else or Switch & Case Statements
+       - HTML elements render differently on a page from one another
+         - Implement render() method on each object
+       - Functions, Variables or Objects more than one form
+       - Provides a single action for different forms
+       - Ability to call the same method on different JavaScript objects
+
+## CRUD
+
+26. What are the REST API methods?
 
     - CRUD:
       Create | post
@@ -154,66 +242,45 @@ JavaScript
       Update | put
       Delete | delete
 
-21. REST & RESTful?
+27. REST & RESTful?
 
     - Representational State Transfer
     - Restful --> web services written in REST architectural concepts called RESTful services
     - How state should be transported over HTTP protocol to different clients
 
-22. WRRC?
+28. WRRC?
 
     - Web Request Response Cycle
     - Clients and servers communicate by exchanging individual messages (as opposed to a stream of data). The messages sent by the client, usually a Web browser, are called requests and the messages sent by the server as an answer are called responses.
 
-## Database Questions:
-
-23. what is a database?
-
-    - Organized collection of data
-    - Tables of data
-    - Documents of data (mongo)
-
-24. What is DBMS?
-
-    - DBMS stands for Database Management System. DBMS is a system software responsible for the creation, retrieval, updation and management of the database. It ensures that our data is consistent, organized and is easily accessible by serving as an interface between the database and its end users or application softwares.
-
-25. What is RDBMS? How is it different from DBMS?
-
-    - RDBMS stands for Relational Database Management System. The key difference here, compared to DBMS, is that RDBMS stores data in the form of a collection of tables and relations can be defined between the common fields of these tables. Most modern database management systems like MySQL, Microsoft SQL Server, Oracle, IBM DB2 and Amazon Redshift are based on RDBMS.
-
-26. How can you sort the database in alphabetical order?
-
-- In SQL - ORDER BY
-- In Mongo there is a sort method
-
 ## Random Refresh Questions / Iteration and recursion:
 
-27. Array?
+29. Array?
 
     - Container that keeps a specific number of similar data types
 
-28. Constructor?
+30. Constructor?
 
     - A method used to create a class object
     - Calls automatically when you create a class object
 
-29. Method?
+31. Method?
 
     - Used to perform some operation of function.
     - It has a return type
     - You need to call the method
 
-30. Stack?
+32. Stack?
 
     - In computing a stack is data structure used to store a collection of objects.
 
-31. What is the difference between iteration and recursion?
+33. What is the difference between iteration and recursion?
 
 - Recursion is simply a method call in which the method being called is the same as the one making the call while iteration is when a loop is repeatedly executed until a certain condition is met.
 
 ## Building a website questions:
 
-32. Explain in words and actions how you would build something
+34. Explain in words and actions how you would build something
 
     1. Brainstorm for a product that will solve a problem.
     2. Plan the entire process.
@@ -224,7 +291,7 @@ JavaScript
     7. Deploy the product.
     8. Sell the product to the target market.
 
-33. How would you design Twitter (basic system design just to see though process)? Use noSQL to handle amounts of read and writes access
+35. How would you design Twitter (basic system design just to see though process)? Use noSQL to handle amounts of read and writes access
 
     1. clarify requirements (functional & non-functional)
     2. define system APIs
@@ -233,7 +300,7 @@ JavaScript
     5. discuss core components
     6. add in high availability considerations and finalise the design.
 
-34. What are the core principles of software engineering?
+36. What are the core principles of software engineering?
 
     - Separation of Concerns. Separation of concerns is a recognition of the need for human beings to work within a limited context
     - Modularity
@@ -242,7 +309,7 @@ JavaScript
     - Generality
     - Incremental Development
 
-35. What to think about when creating a website
+37. What to think about when creating a website
     - Target audience (who are they?)
       - Individuals
       - company
@@ -260,7 +327,7 @@ JavaScript
 
 ## Devops Concept
 
-36. What are some Devops concepts you know?
+38. What are some Devops concepts you know?
 
     - Continuous Integration.
     - Continuous Delivery.
@@ -271,22 +338,22 @@ JavaScript
 
 ## Interface Questions:
 
-37. What is the difference between an abstract class and an interface?
+39. What is the difference between an abstract class and an interface?
 
 - An abstract class allows you to create functionality that subclasses can implement or override. An interface only allows you to define functionality, not implement it. And whereas a class can extend only one abstract class, it can take advantage of multiple interfaces.
 
 ## Polymorphism
 
-38. What is polymorphism?
+40. What is polymorphism?
 
 - The polymorphism is a core concept of an object-oriented that provides a way to perform a single action in different forms. It provides an ability to call the same method on different JavaScript objects.
 
-39. Inheritance vs polymorphism?
+41. Inheritance vs polymorphism?
 
 - Inheritance is one in which a new class is created (derived class) that inherits the features from the already existing class(Base class). Whereas polymorphism is that which can be defined in multiple forms. ... Inheritance supports the concept of reusability and reduces code length in object-oriented programming.
 
 ## Data encapsulation
 
-40. What is Data Encapsulation?
+42. What is Data Encapsulation?
 
 - Data Encapsulation is an Object Oriented Programming concept that bind a group of related properties, functions, and other members are treated as a single unit. Class is the best example of Data Encapsulation. It sometimes referred to as data hiding that prevents the user to access the implementation details.
