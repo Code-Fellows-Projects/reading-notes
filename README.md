@@ -98,3 +98,9 @@ Prep: [Engineering Topics](/401/engineering-topics.md)
 ## Technical Review
 
 1. [Technical Interview](TechnicalReview/ti.md)
+
+## SQL
+
+1. [Sams Teach Yourself SQL in 10 min](SQL/sqlin10min.md)
+
+## NoSQL
