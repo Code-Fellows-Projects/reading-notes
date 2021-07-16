@@ -102,5 +102,3 @@ Prep: [Engineering Topics](/401/engineering-topics.md)
 ## SQL
 
 1. [Sams Teach Yourself SQL in 10 min](SQL/sqlin10min.md)
-
-## NoSQL
