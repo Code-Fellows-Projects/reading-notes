@@ -127,12 +127,75 @@ WHERE vend_id != 'DLL01';
 
   - Operator - A special keyword use to join or change clauses within a WHERE clause. Also known as logical operators
 
-- Using the AND Operator:
+- **Using the AND Operator:**
 
   - To filter by more than one column, you use the AND operator to append conditions to your WHERE clause.
 
-- Using the OR Operator:
+- **Using the OR Operator:**
 
   - OR operator is exactly opposite the AND operator. The OR operator instructs the database management system software to retrieve rows that match either condition.
+  - OR a keyword used in a WHERE clause to specify that any rows matching either of the specified conditions should be retrieved
 
-    - OR a keyword used in a WHERE clause to specify that any rows matching either of the specified conditions should be retrieved
+- **Using the IN Operator:**
+
+  - Uses to specify a range of conditions, any of which can be matched. In takes a comma-delimited list of valid values, all enclosed within parentheses.
+
+example:
+
+```
+SELECT prod_name, prod_price
+FROM Products
+WHERE vend_id IN ('DLL01', 'BRS01')
+ORDER BY prod_name;
+
+```
+
+- IN operator accomplishes the same goal as the OR operator
+
+  - Biggest advantage for the IN operator is that the IN operator can contain another SELECT statement. Allowing for highly dynamic WHERE clauses.
+
+- **Using the NOT Operator:**
+
+- The WHERE clauses NOT operator has one function only -- NOT negate whatever condition comes next.
+  - Never used by itself
+  - Can be used before column to filter on but not after
+
+example:
+
+```
+Using NOT Operator                  |   Using <> Instead to get the same results
+                                    |
+SELECT prod_name                    |   SELECT prod_name
+FROM Products                       |   FROM Products
+WHERE NOT vend_id = 'DLL01'         |   WHERE vend_id <> 'DLL01'
+ORDER BY prod_name;                 |   ORDER BY prod_name;
+
+```
+
+### Using Wildcard Filtering `%, _, []`
+
+- Search Pattern - A search condition made up of literal text, wildcard characters, or any combination of the above
+
+- Wildcards - Special characters used to match parts of a value
+  - To use wildcards in search clauses, the LIKE operator must be used
+    - The **`%`** sign is the most frequently used wildcard
+
+example:
+
+```
+
+SELECT prod_id, prod_name
+FROM Products
+WHERE prod_name LIKE 'Fish%'; // NOTE: DBMS might be case sensitive so fish would not match
+
+```
+
+- Good for searching for partial emails like: b%@forta.com
+
+  - TIP: Watch for trailing spaces
+  - Watch for NULL
+
+- The underscore **`(_)`** wildcard is used for matching a single character
+
+- The bracket **`([])`** wildcard is used to specify a set of characters
+  - This wildcard might not be supported by at DBMS
