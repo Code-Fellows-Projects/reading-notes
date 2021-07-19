@@ -199,3 +199,61 @@ WHERE prod_name LIKE 'Fish%'; // NOTE: DBMS might be case sensitive so fish woul
 
 - The bracket **`([])`** wildcard is used to specify a set of characters
   - This wildcard might not be supported by at DBMS
+
+### Creating Calculated Fields
+
+- Data stored within a database's tables is often not available in the exact format needed
+  - Calculated fields: Don't exist in database tables. Rather, a calculated field is created on-the-fly within a SQL SELECT statement
+- Field: Similar to column and often used interchangeably, although database columns are typically called _columns_ and the term _fields_ is usually used in conjunction with calculated fields.
+
+- In SQL SELECT statements you can concatenate columns using a special operator. Usually you can use either a (+) or (||) depending on DBMS
+
+example
+
+```
+
+SELECT vend_name || ' (' || vend_country || ')'
+FROM Vendors
+ORDER BY vend_name;
+
+```
+
+- The **TRIM** Functions:
+
+- **RTRIM()** - function trims all space from the right of a value / string.
+- **LTRIM()** - function trims all space from the left of a value /string.
+- **TRIM()** - function trims all space from both sides.
+
+example
+
+```
+
+SELECT RTRIM(vend_name) || ' (' || RTRIM(vend_country) || ')'
+FROM Vendors
+ORDER BY vend_name;
+
+```
+
+### Using Data Manipulation Functions:
+
+DBSM Function DIfferences
+
+---
+
+Function - Syntax
+
+---
+
+Extract part of a string - Access uses `MID()`. DB2, Oracle, PostgreSQL, and SQLite use `SUBSTR()`. MariaDB, MySQL and SQl Server use `SUBSTRING()`.
+
+---
+
+Datatype Conversion - Access and Oracle use multiple functions, one for each conversion type. DB2 and PostgreSQL uses `CAST()`. MariaDB, MySQL and SQL Server use `CONVERT()`.
+
+---
+
+Get current date - Access uses `NOW()`. DB2 and PostgreSQL use `CURRENT_DATE`. MariaDB and MySQL use `CURDATE()`. Oracle uses `SYSDATE()`. SQL Server use `GETDATE()`. SQLite uses DATE().
+
+- Text Manipulation Function:
+
+RTRIM() is one and another is UPPER() function
