@@ -10,8 +10,6 @@
 SELECT CITY
 FROM STATION;
 
-
-
 -- Correct answer:
 SELECT (count(CITY) - count(distinct CITY))
 FROM STATION;
